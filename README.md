@@ -10,7 +10,7 @@ This application is designed to replicate some of the core features of Spotify, 
 ## Used Technologies
 - HTML5
 - CSS3 
--Javascript
+- Javascript
 - APIs: Spotify Web API, Shazam API
 
 ## Preview 
