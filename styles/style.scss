@@ -1,0 +1,32 @@
+@import "variables";
+@import "mixin";
+@import "aside";
+@import "main";
+@import "playing";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: black;
+  font-family: sans-serif;
+  color: $text;
+  display: flex;
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+  color: $text;
+  white-space: nowrap;
+  padding: 10px;
+  font-size: 14px;
+  transition: all 0.3s;
+  &:hover {
+    background-color: $spotify-color;
+    color: black;
+  }
+}
